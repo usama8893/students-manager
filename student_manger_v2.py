@@ -21,7 +21,7 @@ while True:
                     print("❌ Marks must be between 0 and 99.")
             except ValueError:
                 print("❌ Please enter a whole number.")
-        students[name] = marks
+        students[name] = markscd cd
         print(f"✅ Added {name} with marks {marks}")
 
     elif choice == "2":
